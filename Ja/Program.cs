@@ -30,7 +30,7 @@ namespace Ja
                 float bmi = (cleanWeight / ((cleanHeight / 100) * (cleanHeight / 100)));
                 bmi = (float)Math.Round(bmi, 2);
                 Console.WriteLine("------------------------------- \n");
-                Console.WriteLine($"Ditt bmi är {bmi}");
+                Console.WriteLine($"Din bmi är {bmi}");
                 Console.WriteLine("\n-------------------------------");
                 Console.Write("Tryck på valfri knapp om du vill fortsätta eller tryck på \"n\" följd av \"enter\" om du vill avsluta: ");
                 if (Console.ReadLine() == "n") endApp = true;
